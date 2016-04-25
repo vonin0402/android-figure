@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Baby</string>
+    <string name="figure_kind">도형 종류</string>
+    <string name="figure_size">도형 크기</string>
+    <string name="figure_add">도형 추가</string>
+    <string name="line_size">선 굵기</string>
+    <string name="figure_color">색상</string>
+    <string name="spinner_prompt1">도형의 종류를 선택하세요</string>
+    <string name="spinner_prompt2">도형의 크기를 선택하세요</string>
+    <string name="spinner_prompt3">도형의 색상을 선택하세요</string>
+    <string name="spinner_prompt4">도형 선 굵기를 선택하세요</string>
+    <string name="draw_figure">도형 그리기</string>
+    <string name="check_figure">도형 확인</string>
+
+</resources>

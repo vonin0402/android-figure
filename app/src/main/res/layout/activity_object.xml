@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.baby.myapplication.ObjectActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentEnd="true"
+        android:id="@+id/linearLayout">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:text="@string/figure_add"
+            android:id="@+id/button"
+            android:textSize="15dp" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/figure_kind"
+                android:layout_gravity="center_horizontal"
+                android:id="@+id/textView4"
+                android:layout_above="@+id/linearLayout"
+                android:layout_alignParentStart="true"
+                android:layout_marginBottom="20dp"
+                android:textSize="20dp"
+                android:textColor="#ffffff"
+                android:background="#528572"
+                android:width="100dp"
+                android:textColorHighlight="#d9d8b5" />
+
+            <Spinner
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/spinner"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:spinnerMode="dropdown"
+                android:width="150dp"
+                android:layout_marginLeft="20dp"
+                android:entries="@array/spinnerArr1"
+                android:prompt="@string/spinner_prompt1" />
+        </LinearLayout>
+        <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/figure_size"
+                android:layout_gravity="center_horizontal"
+                android:id="@+id/textView5"
+                android:layout_above="@+id/linearLayout"
+                android:layout_alignParentStart="true"
+                android:layout_marginBottom="20dp"
+                android:textSize="20dp"
+                android:textColor="#ffffff"
+                android:background="#528572"
+                android:width="100dp"
+                android:textColorHighlight="#d9d8b5" />
+
+            <Spinner
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/spinner2"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:width="150dp"
+                android:layout_marginLeft="20dp"
+                android:entries="@array/spinnerArr2"
+                android:prompt="@string/spinner_prompt2"
+                android:spinnerMode="dropdown" />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/figure_color"
+                android:layout_gravity="center_horizontal"
+                android:id="@+id/textView6"
+                android:layout_above="@+id/linearLayout"
+                android:layout_alignParentStart="true"
+                android:layout_marginBottom="20dp"
+                android:textSize="20dp"
+                android:textColor="#ffffff"
+                android:background="#528572"
+                android:width="100dp"
+                android:textColorHighlight="#d9d8b5" />
+
+            <Spinner
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/spinner3"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:width="150dp"
+                android:layout_marginLeft="20dp"
+                android:entries="@array/spinnerArr3"
+                android:prompt="@string/spinner_prompt3"
+                android:spinnerMode="dropdown" />
+        </LinearLayout>
+        <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/line_size"
+                android:layout_gravity="center_horizontal"
+                android:id="@+id/textView7"
+                android:layout_above="@+id/linearLayout"
+                android:layout_alignParentStart="true"
+                android:layout_marginBottom="20dp"
+                android:textSize="20dp"
+                android:textColor="#ffffff"
+                android:background="#528572"
+                android:width="100dp"
+                android:textColorHighlight="#d9d8b5" />
+
+            <Spinner
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/spinner4"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:width="150dp"
+                android:layout_marginLeft="20dp"
+                android:entries="@array/spinnerArr4"
+                android:prompt="@string/spinner_prompt4"
+                android:spinnerMode="dropdown" />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/linearLayout2"
+            android:layout_alignParentEnd="true">
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+</RelativeLayout>
